@@ -33,7 +33,7 @@ void TASK_5ms()
 
 void TASK_10ms()
 {   
-    move();
+    //move();
 }
 
 void TASK_100ms()
@@ -49,6 +49,7 @@ void TASK_500ms()
 void TASK_1000ms()
 {
     a = !a;
+    move();
     //GPIO_u8WritePortPin(PORT_A, 10, a);
    
 }

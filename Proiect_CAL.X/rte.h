@@ -9,11 +9,13 @@
 #define	RTE_H
 
 #include "hal_dc.h"
+#include "hal_servoMotor.h"
 
 //redenumire prototip functie
 #define RTE_vInit HAL_vDcMotorInit
 #define RTE_vSetMotorDir HAL_vSetMotorDir
 #define RTE_vSetMotorSpeed HAL_vSetMotorSpeed
+#define RTE_vsetServo setServo
 
 
 

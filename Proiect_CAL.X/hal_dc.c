@@ -11,16 +11,16 @@
 
   void HAL_vSetMotorDir()
   {
-    T_S16 i = 0;
-    while(i<100){
-        i++;
-        if(i %2 == 0){
+    //T_S16 i = 0;
+  //  while(i<100){
+  //      i++;
+  //      if(i %2 == 0){
              GPIO_u8WritePortPin(PORT_A,9,0);
-        }
-        else{
-            GPIO_u8WritePortPin(PORT_A,9,1);
-        }
-        }
+   //     }
+   //     else{
+  //          GPIO_u8WritePortPin(PORT_A,9,1);
+   //     }
+   //     }
 
   }
   

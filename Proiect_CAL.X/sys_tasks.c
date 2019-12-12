@@ -11,7 +11,7 @@
 #include "mcal_init.h"
 #include "asw_com.h"
 #include "asw_move.h"
-
+#include "asw_lineFoll.h"
 T_U16 a = 0;
 
 void TASK_Inits()
@@ -49,7 +49,13 @@ void TASK_500ms()
 void TASK_1000ms()
 {
     a = !a;
-    move();
+   
+    if(asw_getLineFollowerVal())
+        move(50);
+    else
+       move(0);
+        
+    
     //GPIO_u8WritePortPin(PORT_A, 10, a);
    
 }

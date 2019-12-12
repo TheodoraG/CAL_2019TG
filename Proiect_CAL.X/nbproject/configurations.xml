@@ -24,6 +24,8 @@
       <itemPath>rte.h</itemPath>
       <itemPath>asw_move.h</itemPath>
       <itemPath>hal_servoMotor.h</itemPath>
+      <itemPath>hal_lineFollower.h</itemPath>
+      <itemPath>asw_lineFoll.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -50,6 +52,8 @@
       <itemPath>hal_dc.c</itemPath>
       <itemPath>asw_move.c</itemPath>
       <itemPath>hal_servoMotor.c</itemPath>
+      <itemPath>hal_lineFollower.c</itemPath>
+      <itemPath>asw_lineFoll.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

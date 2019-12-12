@@ -3,5 +3,5 @@ asw_move.c  \
 asw_move.h  \
 rte.h  \
 hal_dc.h  \
- hal_servoMotor.h  \
-general_types.h 
+ general_types.h  \
+hal_servoMotor.h 

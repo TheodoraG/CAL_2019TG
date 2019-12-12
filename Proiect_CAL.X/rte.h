@@ -16,6 +16,9 @@
 #define RTE_vSetMotorDir HAL_vSetMotorDir
 #define RTE_vSetMotorSpeed HAL_vSetMotorSpeed
 #define RTE_vsetServo setServo
+#define RTE_vSetDirLineFollower vSetDirLineFollower
+#define RTE_vWriteLineFollower vWriteLineFollower
+#define RTE_u8GetValueLineFollower u8GetValueLineFollower
 
 
 

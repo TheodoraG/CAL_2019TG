@@ -24,9 +24,9 @@
 
   }
   
-    void HAL_vSetMotorSpeed()
+    void HAL_vSetMotorSpeed(T_F16 speed)
     {
-      PWM1_vSetDuty(50,2);
+      PWM1_vSetDuty(speed,2);
   
     }
     

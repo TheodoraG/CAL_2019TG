@@ -7,6 +7,7 @@
 
 #ifndef HAL_DC_H
 #define	HAL_DC_H
+#include "general_types.h"
 
 #ifdef	__cplusplus
 extern "C" {
@@ -14,7 +15,7 @@ extern "C" {
 
   void  HAL_vSetMotorDir();
   void HAL_vDcMotorInit();
-  void HAL_vSetMotorSpeed();
+  void HAL_vSetMotorSpeed(T_F16 speed);
 
 
 #ifdef	__cplusplus

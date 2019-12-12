@@ -7,13 +7,13 @@
 
 #ifndef ASW_MOVE_H
 #define	ASW_MOVE_H
-
+#include "rte.h"
 #ifdef	__cplusplus
 extern "C" {
 #endif
 
 
-void move();
+void move(T_F16 speed2);
 void init();
 
 #ifdef	__cplusplus

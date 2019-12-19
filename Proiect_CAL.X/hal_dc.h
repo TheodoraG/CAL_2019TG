@@ -13,7 +13,7 @@
 extern "C" {
 #endif
 
-  void  HAL_vSetMotorDir();
+  void  HAL_vSetMotorDir(BOOL Dir);
   void HAL_vDcMotorInit();
   void HAL_vSetMotorSpeed(T_F16 speed);
 

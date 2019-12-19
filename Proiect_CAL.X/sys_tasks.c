@@ -12,6 +12,7 @@
 #include "asw_com.h"
 #include "asw_move.h"
 #include "asw_lineFoll.h"
+#include "asw_FollowDir.h"
 T_U16 a = 0;
 
 void TASK_Inits()
@@ -50,10 +51,13 @@ void TASK_1000ms()
 {
     a = !a;
    
-    if(asw_getLineFollowerVal())
-        move(50);
+  /*  if(asw_getLineFollowerVal())
+               move(50);
     else
        move(0);
+    
+    */
+   followDir();
         
     
     //GPIO_u8WritePortPin(PORT_A, 10, a);

@@ -26,6 +26,7 @@
       <itemPath>hal_servoMotor.h</itemPath>
       <itemPath>hal_lineFollower.h</itemPath>
       <itemPath>asw_lineFoll.h</itemPath>
+      <itemPath>asw_FollowDir.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -54,6 +55,7 @@
       <itemPath>hal_servoMotor.c</itemPath>
       <itemPath>hal_lineFollower.c</itemPath>
       <itemPath>asw_lineFoll.c</itemPath>
+      <itemPath>asw_FollowDir.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -72,7 +74,7 @@
         <targetDevice>dsPIC33FJ128MC804</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>pk4hybrid</platformTool>
         <languageToolchain>XC16</languageToolchain>
         <languageToolchainVersion>1.36</languageToolchainVersion>
         <platform>3</platform>

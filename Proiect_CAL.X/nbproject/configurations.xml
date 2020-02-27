@@ -58,6 +58,8 @@
       <itemPath>asw_lineFoll.c</itemPath>
       <itemPath>asw_FollowDir.c</itemPath>
       <itemPath>hal_acumulator.c</itemPath>
+      <itemPath>asw_energy.c</itemPath>
+      <itemPath>asw_energy.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -231,32 +233,28 @@
         <property key="save-temps" value="false"/>
       </C30Global>
       <PICkit3PlatformTool>
-        <property key="ADFRZ" value="true"/>
+        <property key="ADC 1" value="true"/>
         <property key="AutoSelectMemRanges" value="auto"/>
-        <property key="CLC 1" value="true"/>
-        <property key="CLC 2" value="true"/>
-        <property key="CLC 3" value="true"/>
-        <property key="CLC 4" value="true"/>
-        <property key="Comparator 1" value="true"/>
-        <property key="Comparator 2" value="true"/>
-        <property key="Comparator 3" value="true"/>
-        <property key="Comparator 4" value="true"/>
+        <property key="CRC" value="true"/>
+        <property key="DAC 1" value="true"/>
+        <property key="DUAL COMPARATOR" value="true"/>
+        <property key="ECAN" value="true"/>
         <property key="Freeze All Other Peripherals" value="true"/>
-        <property key="I2C 1" value="true"/>
-        <property key="I2C 2" value="true"/>
+        <property key="I2C1" value="true"/>
         <property key="INPUT CAPTURE 1" value="true"/>
         <property key="INPUT CAPTURE 2" value="true"/>
-        <property key="INPUT CAPTURE 3" value="true"/>
-        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 7" value="true"/>
+        <property key="INPUT CAPTURE 8" value="true"/>
         <property key="OUTPUT COMPARE 1" value="true"/>
         <property key="OUTPUT COMPARE 2" value="true"/>
         <property key="OUTPUT COMPARE 3" value="true"/>
-        <property key="OUTPUT COMPARE 4" value="true"/>
-        <property key="PTG" value="true"/>
-        <property key="PWM" value="true"/>
+        <property key="OUTPUT COMPARE 8" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="PWM 1" value="true"/>
+        <property key="PWM 2" value="true"/>
+        <property key="REAL TIME CLOCK AND CALENDAR" value="true"/>
         <property key="SPI 1" value="true"/>
         <property key="SPI 2" value="true"/>
-        <property key="SPI 3" value="true"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
         <property key="TIMER1" value="true"/>
         <property key="TIMER2" value="true"/>

@@ -13,6 +13,7 @@
 #include "asw_move.h"
 #include "asw_lineFoll.h"
 #include "asw_FollowDir.h"
+#include "asw_energy.h"
 T_U16 a = 0;
 
 void TASK_Inits()
@@ -39,7 +40,15 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-     funcTimer();
+    if(bObserv){
+        //aprind_led
+        GPIO_u8WritePortPin(PORT_A, 10, 1);
+    }
+    else{
+        //sting
+        GPIO_u8WritePortPin(PORT_A, 10, 0);
+    }
+    // funcTimer();
 }
 
 void TASK_500ms()
@@ -58,8 +67,29 @@ void TASK_1000ms()
     
     */
    followDir();
-        
-    
+   T_U8 energyLevel = asw_showEnergy();
+   //printf("Energy %c:",energyLevel) ;   
+   /*
+   if(energyLevel < 100 && energyLevel >= 20){
+    GPIO_u8WritePortPin(PORT_A, 10, 1);
+    GPIO_u8WritePortPin(PORT_A, 10, 0);
+   }
+   else
+       if(energyLevel < 20 && energyLevel >= 10){
+           GPIO_u8WritePortPin(PORT_A, 10, 1);
+           GPIO_u8WritePortPin(PORT_A, 10, 0);
+           GPIO_u8WritePortPin(PORT_A, 10, 1);
+           GPIO_u8WritePortPin(PORT_A, 10, 0);
+     }
+       else if(energyLevel < 10 && energyLevel >= 0){
+           GPIO_u8WritePortPin(PORT_A, 10, 1);
+           GPIO_u8WritePortPin(PORT_A, 10, 0);
+           GPIO_u8WritePortPin(PORT_A, 10, 1);
+           GPIO_u8WritePortPin(PORT_A, 10, 0);
+           GPIO_u8WritePortPin(PORT_A, 10, 1);
+           GPIO_u8WritePortPin(PORT_A, 10, 0);
+       }
+     */
     //GPIO_u8WritePortPin(PORT_A, 10, a);
    
 }

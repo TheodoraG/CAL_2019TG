@@ -15,6 +15,11 @@
 #define INT1Pin 31
 #define INT2Pin 22
 
+
+extern BOOL bObserv;
+void INT0_vSetPolarity(BOOL bPolarity);
+BOOL INT0_bGetPolarity();
+
 /* Interrupt initialization function declarations  */
 void INT_vInit(void);    
 void INT0_vInit(T_U8);

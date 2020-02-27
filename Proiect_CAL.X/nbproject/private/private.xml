@@ -11,6 +11,17 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/main.c</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/asw_energy.h</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/mcal_interrupts.c</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/rte.h</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/general_types.h</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/mcal_interrupts.h</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/mcal_init.c</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/asw_energy.c</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/hal_acumulator.h</file>
+            <file>file:/D:/CAL_ultimul/CAL_2019TG-master/Proiect_CAL.X/sys_tasks.c</file>
+        </group>
     </open-files>
 </project-private>

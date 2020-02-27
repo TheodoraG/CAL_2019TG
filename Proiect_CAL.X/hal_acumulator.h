@@ -8,7 +8,7 @@
 #ifndef HAL_ACUMULATOR_H
 #define	HAL_ACUMULATOR_H
 #include "general_types.h"
-T_U8 showEnergy(T_U16 valoare_citita);
+T_U8 showEnergy();
 
 #endif	/* HAL_ACUMULATOR_H */
 

@@ -19,7 +19,7 @@
 #define RTE_vSetDirLineFollower vSetDirLineFollower
 #define RTE_vWriteLineFollower vWriteLineFollower
 #define RTE_u8GetValueLineFollower u8GetValueLineFollower
-
+#define RTE_showEnergy showEnergy
 
 
 #endif	/* RTE_H */

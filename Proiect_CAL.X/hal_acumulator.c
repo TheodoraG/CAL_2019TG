@@ -1,9 +1,9 @@
 #include "hal_acumulator.h"
 #include "mcal_adc.h"
 
-T_U8 showEnergy(T_U16 valoare_citita)
+T_U8 showEnergy()
 {
-    valoare_citita=ADC_u16Read(0);
+    T_U16 valoare_citita=ADC_u16Read(0);
     T_U8 rezolutie=0;
     T_U8 gradIncarcare=0;
     if(valoare_citita<=8.4 && valoare_citita>=7)

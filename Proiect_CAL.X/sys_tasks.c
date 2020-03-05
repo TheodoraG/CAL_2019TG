@@ -14,6 +14,7 @@
 #include "asw_lineFoll.h"
 #include "asw_FollowDir.h"
 #include "asw_energy.h"
+#include "mcal_encoder.h"
 T_U16 a = 0;
 
 void TASK_Inits()
@@ -33,13 +34,21 @@ void TASK_5ms()
 
 }
 
+T_S16 distEncoder;
 void TASK_10ms()
 {   
     //move();
+    
+    distEncoder += QEI_s16getElapsed();
+    if(distEncoder < 1000)
+        move(65,90); //forward
+    else
+        move(0,90);//stop
 }
 
 void TASK_100ms()
 { 
+   
     if(bObserv){
         //aprind_led
         GPIO_u8WritePortPin(PORT_A, 10, 1);
@@ -66,7 +75,7 @@ void TASK_1000ms()
        move(0);
     
     */
-   followDir();
+   //followDir();
    T_U8 energyLevel = asw_showEnergy();
    //printf("Energy %c:",energyLevel) ;   
    /*
